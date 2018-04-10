@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" name="unittest.suite._ErrorHolder-20180401192125" skipped="0" tests="1" time="0.000" timestamp="0001-01-01T00:00:00">
+	<testcase classname="setUpClass (__main__" name="SampleAppiumTest)" time="0.000" timestamp="0001-01-01T00:00:00">
+		<error message="AltUnityServer not running on port 13001, did you run ``adb forward tcp:13001 tcp:13000`` or ``iproxy 13001 13000``?" type="Exception">
+<![CDATA[Traceback (most recent call last):
+  File "c:/Users/Public/Documents/Unity Projects/Test/Byjus/Test.py", line 24, in setUpClass
+    self.altdriver = AltrunUnityDriver(self.driver, self.platform)
+  File "C:\Python27\lib\site-packages\altunityrunner\runner.py", line 89, in __init__
+    raise Exception('AltUnityServer not running on port ' + str(TCP_FWD_PORT) + ', did you run ``adb forward tcp:' + str(TCP_FWD_PORT) + ' tcp:' + str(self.TCP_PORT) + '`` or ``iproxy ' + str(TCP_FWD_PORT) + ' ' + str(self.TCP_PORT) + '``?')
+Exception: AltUnityServer not running on port 13001, did you run ``adb forward tcp:13001 tcp:13000`` or ``iproxy 13001 13000``?
+
+Stdout:
+Staring tests on android
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 60 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 55 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 50 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 45 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 40 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 35 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 30 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 25 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 20 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 15 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 10 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 5 secs)...
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[Staring tests on android
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 60 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 55 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 50 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 45 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 40 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 35 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 30 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 25 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 20 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 15 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 10 secs)...
+AltUnityServer - could not use port 13001
+[Errno 10054] An existing connection was forcibly closed by the remote host
+AltUnityServer not running on port 13001, retrying (timing out in 5 secs)...
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
