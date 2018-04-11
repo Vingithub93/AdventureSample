@@ -1,1 +1,1 @@
-python C:\Users\Automation\Desktop\Adventure\Adventure\Test.py
+python "%CD%"\Adventure\Test.py
